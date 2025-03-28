@@ -20,27 +20,72 @@ Sample flow
 ```
 Welcome to EduFlow - A Class Scheduling software!
 0) Exit
-1) Login as Advisor
-2) Login as Student
-Action: 1
-Username: advisor
-Password: 0000
-
-Welcome, advisor!
-0) Exit
-1) Get full student report
-2) Add student
+1) View all students
+2) View all student schedules
 3) View student schedule
-4) Add class to student schedule
-5) Remove class from student schedule
-6) Get student report
+Action: 1
+
+Ilo Adams
+Credits: 12
+=================
+Billy Bob Jones
+Credits: 18
+=================
+Alan Turing
+Credits: 16
+=================
+0) Exit
+1) View all students
+2) View all student schedules
+3) Access student schedule
+Action: 2
+
+Ilo Adams
+Credits: 12
+CS120-2 Intro to Computer Science: Harris, Andy
+MATH160-1 College Algebra: Duck, Donald
+ENG110-3 English for Dummies:  Hasselhoff, David
+================================================
+Billy Bob Jones
+Credits: 18
+MATH200-1 Calculus for Cats: Gebra, Al
+PSY100-2 Intro to Psych: Freud, Sigmund
+ENG110-3 English for Dummies: Hasselhoff, David
+PFW100-4 Weightlifting for Weaklings: Spotter, Anita
+MATH211-2 Differential Equations: Newton, Isaac
+================================================
+Alan Turing
+Credits: 16
+CS340-1 Coding for Experts: Sharp, Cee
+CS498-2 Senior Seminar: Minutt, Last
+ENG110-3 English for Dummies: Hasselhoff, David
+PFW101-4 Swimming for Fish: Fish, Gold
+================================================
+0) Exit
+1) View all students
+2) View all student schedules
+3) View student schedule
 Action: 3
-First Name: Hadley
-Last Name: Jones
+First name: Alan
+Last name: Turing
 
-Jones, Hadley
-CS120 Section 1 - Harris, Andy
-MATH215 Section 3 - Bremigan, Ralph
-MATH267 Section 2 - Ahmed, Mohammed
+Alan Turing
+Credits: 16
+CS340-1 Coding for Experts: Sharp, Cee
+CS498-2 Senior Seminar: Minutt, Last
+ENG110-3 English for Dummies: Hasselhoff, David
+PFW101-4 Swimming for Fish: Fish, Gold
+===============================================
+0) Exit to Main
+1) Add class
+2) Drop class
+Action: 1
+Course Code: CS222
+CS222 added!
+0) Exit to Main
+1) Add class
+2) Drop class
+Action: 2
+Course Code: CS222
+CS222 dropped!
 ```
-
